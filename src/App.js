@@ -1,16 +1,13 @@
-
+import React from 'react';
 import './App.css';
-import Button from '@mui/material/Button';
+import {BrowserRouter as Router} from 'react-router-dom'
+import Home from './pages';
 
 function App() {
   return (
-    <div className="App">
-      Matthew Cho's personal website
-      <img src="res/mat.jpg" alt="Matthew's face" width="500" height="500"/>
-
-      <Button variant="contained">Hello World</Button>
-
-    </div>
+    <Router>
+      <Home/>
+    </Router>
   );
 }
 

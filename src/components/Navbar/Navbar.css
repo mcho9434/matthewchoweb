@@ -1,4 +1,16 @@
 .nav-element{
     padding: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
 
+.nav-element:hover{
+    background-color: #555555;
+    color: white;
+}
+
+.navBar{
+    height: 100px;
 }

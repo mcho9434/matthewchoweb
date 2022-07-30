@@ -1,0 +1,32 @@
+.intro-wrapper{
+    /* border: 1px solid black; */
+    overflow: hidden; /* add this to contain floated children */
+    /* background: gray; */
+    display: flex;
+}
+
+.img-container{
+    /* background: lightcoral; */
+    float: left;
+    /* border: 1px solid red; */
+}
+
+.intro-text{
+    /* border: 1px solid green; */
+    margin-left: 20px;
+    /* background: lightblue; */
+    float: left; /* add this */
+    overflow-wrap: break-word;
+}
+.intro-title{
+    /* background: lightgreen; */
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.intro-paragraph{
+    /* background: green; */
+    font-size: 50px;
+    display: inline;
+    
+}

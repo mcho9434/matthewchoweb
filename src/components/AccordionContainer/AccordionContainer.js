@@ -14,8 +14,6 @@ const AccordionContainer = (props) => {
                 id="panel1a-header"
                 >
                 <Typography>{props.title}</Typography>
-                {/* {props.title}      
-                <p style={{ color: 'blue', textAlign:"right"}}>test</p>           */}
             </AccordionSummary>
             <AccordionDetails>
                 <Typography>

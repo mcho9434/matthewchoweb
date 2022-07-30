@@ -14,7 +14,7 @@ const Intro = () => {
                 </h1>
                 <div className="intro-paragraph">
                 &emsp;I'm a student at the University of Southern California,
-                 majoring in Computer Science and minoring in Entrepreneurship. I'm passionate about engineering for social good and entrepreneuship. I'd love to chat about anything from career opportunities to rising technologies. Reach out!
+                 majoring in Computer Science and minoring in Entrepreneurship. I'm passionate about engineering for social good and entrepreneurship. I'd love to chat about anything from career opportunities to rising technologies. Reach out!
                 </div>
 
             </div>
